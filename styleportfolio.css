@@ -1,0 +1,235 @@
+* {
+  font-family: "Inter";
+}
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  max-width: 100%;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.menyn {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.text-namn {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 40px;
+}
+.meny a {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.rubrik {
+  font-size: 82px;
+  font-family: "Inter", sans-serif;
+  margin-left: 40px;
+}
+.information h2 {
+  max-width: 65%;
+}
+.kan {
+  padding: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 38px;
+  font-weight: 100;
+  display: flex;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  gap: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.box h3 {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 900;
+}
+.box h4 {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 160px;
+}
+
+@media screen and (max-width: 750px) {
+  .menyn {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .text-namn {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .menyn a {
+    font-size: 12px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .card-container {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .rubrik {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+
+  .kan {
+    padding: 8px;
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+  .descript {
+    font-size: 11px;
+    margin-left: 20px;
+    margin-right: 180px;
+    margin-top: 40px;
+    width: 200px;
+  }
+}
+
+/* Projekt */
+.beskrivning-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 180px;
+  gap: 10px;
+}
+
+.beskrivning-container p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.descript {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 300;
+  width: 37%;
+  margin-left: 40px;
+  margin-right: 180px;
+  margin-top: 60px;
+}
+.profil {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+.citat {
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter";
+  align-items: center;
+}
+.left {
+  margin-left: 40px;
+  max-width: 38%;
+  margin-bottom: 60px;
+}
+.right {
+  margin-right: 40px;
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 30%;
+  margin-right: 240px;
+}
+.secpic {
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: rgb(10, 134, 196);
+}
+.andra {
+  font-family: "Inter";
+  font-size: 2rem;
+  font-weight: 900;
+}
+a {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+}
+.three {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.foure {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+}
+footer {
+  background-color: rgb(215, 215, 215);
+  padding: 5vh 40px;
+}
+footer h2 {
+  padding-bottom: 1rem;
+}
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+footer a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+footer a:hover {
+  color: white;
+}
